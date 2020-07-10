@@ -1,0 +1,25 @@
+{
+  "name": "netlify-build-plugin-perfbeacon",
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "netlify",
+    "netlify-plugin"
+  ],
+  "repository": "perfbeacon/netlify-build-plugin-perfbeacon",
+  "bugs": {
+    "url": "https://github.com/perfbeacon/netlify-build-plugin-perfbeacon/issues"
+  },
+  "author": "Max Rozen",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "snyk": "^1.361.3"
+  }
+}
