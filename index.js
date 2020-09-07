@@ -14,7 +14,7 @@ const fetch = require('node-fetch');
 module.exports = {
   async onSuccess({
     utils: {
-      build: { failPlugin, failBuild },
+      build: { failPlugin },
     },
   }) {
     if (CONTEXT === 'production') {
@@ -45,7 +45,7 @@ module.exports = {
 
         console.log('PerfBeacon test submitted!');
       } catch (error) {
-        return failBuild('PerfBeacon test failed', { error });
+        return failPlugin('PerfBeacon test failed', { error });
       }
     }
   },
